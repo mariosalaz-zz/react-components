@@ -4,7 +4,7 @@ import Operand from "../Atoms/Operand";
 const OperandsKeyboard = () => {
   const operands = ["%", "(", ")", "/", "x", "-", "+", "=", ".", "++"];
   return (
-    <div className="operands-keyboard">
+    <div className="operandsKeyboard">
       {operands.map(operand => (
         <Operand value={operand} />
       ))}

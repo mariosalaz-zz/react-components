@@ -4,7 +4,7 @@ import SummaryScreen from "../Atoms/SummaryScreen";
 
 const Screen = ({ handleInputChange, inputValue }) => {
   return (
-    <div className="screen-container">
+    <div className="screen">
       <SummaryScreen />
       <MainScreen
         handleInputChange={handleInputChange}
