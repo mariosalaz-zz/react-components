@@ -1,7 +1,11 @@
 import React from "react";
 
 const Header = () => {
-  return <header>DOMOCALC</header>;
+  return (
+    <header>
+      domo<span>calc</span>
+    </header>
+  );
 };
 
 export default Header;
