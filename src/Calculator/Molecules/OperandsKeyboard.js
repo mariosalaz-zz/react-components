@@ -2,12 +2,20 @@ import React from "react";
 import Operand from "../Atoms/Operand";
 
 const OperandsKeyboard = () => {
-  const operands = ["%", "(", ")", "/", "x", "-", "+", "=", ".", "++"];
+  const upperOperands = ["%", "(", ")"];
+  const operands = ["/", "x", "-", "+", "=", ".", "++"];
   return (
     <div className="operands-keyboard">
-      {operands.map(operand => (
-        <Operand value={operand} />
-      ))}
+      <div className="upper-operands">
+        {upperOperands.map(operand => (
+          <Operand value={operand} />
+        ))}
+      </div>
+      <div className="right-side-operands">
+        {operands.map(operand => (
+          <Operand value={operand} />
+        ))}
+      </div>
     </div>
   );
 };
