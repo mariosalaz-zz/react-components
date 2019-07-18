@@ -1,0 +1,22 @@
+@import "../Base/base.scss";
+
+.numeric-keyboard {
+  width: 60%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 13px;
+
+  li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    list-style: none;
+    border: 1px solid #8997db;
+    border-radius: 50%;
+    text-align: center;
+    margin: 5px;
+    line-height: 2.5;
+    color: #becadd;
+  }
+}

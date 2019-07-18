@@ -1,0 +1,59 @@
+@import "../Base/base.scss";
+
+.operands-keyboard {
+  width: 30%;
+  float: right;
+
+  li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    list-style: none;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.5;
+    margin: 5px;
+    font-size: 20px;
+    color: #becadd;
+
+    &:nth-child(5) {
+      margin-top: 21px;
+      background-color: #e53560;
+      line-height: 2;
+    }
+
+    &:nth-child(6) {
+      position: absolute;
+      margin-top: 20px;
+      left: 12px;
+      border: 1px solid #8997db;
+      line-height: 1.4;
+    }
+
+    &:nth-child(7) {
+      position: absolute;
+      margin-top: 20px;
+      right: 90px;
+      border: 1px solid #8997db;
+      line-height: 2;
+    }
+  }
+
+  .upper-operands {
+    display: block;
+    position: absolute;
+    left: 17px;
+  }
+
+  .right-side-operands {
+    position: relative;
+    text-align: center;
+    height: 280px;
+    border-radius: 0 0 15px 0;
+    background-color: #306086;
+
+    li {
+      line-height: 3.3;
+    }
+  }
+}

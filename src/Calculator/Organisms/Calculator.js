@@ -3,6 +3,7 @@ import Header from "../Atoms/Header";
 import Screen from "../Molecules/Screen";
 import NumericKeyboard from "../Molecules/NumericKeyboard";
 import OperandsKeyboard from "../Molecules/OperandsKeyboard";
+import "../../css/Organisms/calculator.scss";
 
 class Calculator extends Component {
   state = {
@@ -19,7 +20,7 @@ class Calculator extends Component {
     const { handleInputChange } = this;
 
     return (
-      <div className="calculator">
+      <div className='calculator'>
         <Header />
         <Screen
           inputValue={mainScreenValue}

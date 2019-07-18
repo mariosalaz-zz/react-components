@@ -1,9 +1,12 @@
 import React from "react";
+import header from "../../css/Atoms/header.scss";
 
 const Header = () => {
   return (
     <header>
-      domo<span>calc</span>
+      <p>
+        domo<span>calc</span>
+      </p>
     </header>
   );
 };

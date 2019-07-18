@@ -1,11 +1,11 @@
 import React from "react";
 import MainScreen from "../Atoms/MainScreen";
 import SummaryScreen from "../Atoms/SummaryScreen";
-import "../../main.css";
+import "../../css/Molecules/screen.scss";
 
 const Screen = ({ handleInputChange, inputValue }) => {
   return (
-    <div className="screen">
+    <div className='screen'>
       <SummaryScreen />
       <MainScreen
         handleInputChange={handleInputChange}
