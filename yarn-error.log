@@ -1,0 +1,89 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu18.04onWindows_1804.2019.522.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/TortoiseSVN/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Users/jorge.salazar/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/nodejs/:/mnt/c/Users/jorge.salazar/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jorge.salazar/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Sophos/Sophos SSL VPN Client/bin:/mnt/c/Users/jorge.salazar/AppData/Roaming/nvm:/mnt/c/Users/jorge.salazar/AppData/Roaming/npm
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  8.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, lstat '/mnt/c/Users/jorge.salazar/Documents/myproyects/react-components/components/node_modules/@xtuc/long/LICENSE'
+
+npm manifest: 
+  {
+    "name": "my-component",
+    "version": "1.0.0",
+    "description": "my-component React component",
+    "main": "lib/index.js",
+    "module": "es/index.js",
+    "files": [
+      "css",
+      "es",
+      "lib",
+      "umd"
+    ],
+    "scripts": {
+      "build": "nwb build-react-component",
+      "clean": "nwb clean-module && nwb clean-demo",
+      "prepublishOnly": "npm run build",
+      "start": "nwb serve-react-demo",
+      "test": "nwb test-react",
+      "test:coverage": "nwb test-react --coverage",
+      "test:watch": "nwb test-react --server",
+      "lint": "eslint . --fix"
+    },
+    "dependencies": {},
+    "peerDependencies": {
+      "react": "16.x"
+    },
+    "devDependencies": {
+      "babel-eslint": "^9.0.0",
+      "eslint": "^5.14.1",
+      "eslint-config-airbnb": "^17.1.0",
+      "eslint-config-prettier": "^4.1.0",
+      "eslint-config-wesbos": "0.0.19",
+      "eslint-plugin-html": "^5.0.3",
+      "eslint-plugin-import": "^2.16.0",
+      "eslint-plugin-jsx-a11y": "^6.2.1",
+      "eslint-plugin-prettier": "^3.0.1",
+      "eslint-plugin-react": "^7.12.4",
+      "eslint-plugin-react-hooks": "^1.3.0",
+      "node-sass": "^4.12.0",
+      "nwb": "0.23.x",
+      "nwb-sass": "^0.9.0",
+      "prettier": "^1.16.4",
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6",
+      "sass-loader": "^7.1.0",
+      "webpack": "^4.36.1"
+    },
+    "author": "",
+    "homepage": "https://github.com/mariosalaz/react-components#readme",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mariosalaz/react-components.git"
+    },
+    "keywords": [
+      "react-component"
+    ],
+    "directories": {
+      "test": "tests"
+    },
+    "bugs": {
+      "url": "https://github.com/mariosalaz/react-components/issues"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

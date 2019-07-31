@@ -5,10 +5,11 @@
   height: 130px;
   position: relative;
 
-  &:first-child {
-    padding: 8px;
+  p {
+    font-size: 11px;
+    padding: 7px 10px;
     color: #fff;
-    border-bottom: 1px solid #7270b5;
+    border-bottom: 1px solid #2d3b58;
   }
 
   input {
