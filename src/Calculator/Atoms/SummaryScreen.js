@@ -1,7 +1,7 @@
 import React from "react";
 
-const SummaryScreen = () => {
-  return <p>10+23</p>;
+const SummaryScreen = ({ summaryScreenValue }) => {
+  return <p>{summaryScreenValue}</p>;
 };
 
 export default SummaryScreen;
