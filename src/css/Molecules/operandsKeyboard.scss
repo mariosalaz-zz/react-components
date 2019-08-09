@@ -1,0 +1,71 @@
+@import "../Base/base.scss";
+
+.operands-keyboard {
+  width: 30%;
+  float: right;
+  position: relative;
+
+  li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    list-style: none;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.5;
+    margin: 5px;
+    font-size: 20px;
+    color: #becadd;
+    cursor: pointer;
+
+
+
+
+
+    &:nth-child(5) {
+      margin-top: 21px;
+      background-color: #e53560;
+      line-height: 2;
+      box-shadow: 0 3px 3px #21273a;
+    }
+
+    &:nth-child(6) {
+      position: absolute;
+      margin-top: 20px;
+      left: -64px;
+      background-image: linear-gradient(#283551, #344464);
+      border: 1px solid #2d3b58;
+      line-height: 1.4;
+
+      &:hover {
+        background: #e53560;
+      }
+    }
+
+    &:nth-child(7) {
+      position: absolute;
+      margin-top: 20px;
+      left: -169px;
+      background-image: linear-gradient(#283551, #344464);
+      border: 1px solid #2d3b58;
+      line-height: 2;
+
+      &:hover {
+        background: #e53560;
+      }
+    }
+  }
+
+  .upper-operands {
+    display: inline-block;
+    position: absolute;
+    left: -165px;
+  }
+
+  .right-side-operands {
+    position: relative;
+    text-align: center;
+    border-radius: 0 0 15px 0;
+    background-color: $main-color;
+  }
+}

@@ -1,0 +1,29 @@
+@import "../Base/base.scss";
+
+.screen {
+  background-color: #242935;
+  height: 130px;
+  position: relative;
+
+  p {
+    font-size: 11px;
+    padding: 7px 10px;
+    color: #fff;
+    border-bottom: 1px solid #2d3b58;
+  }
+
+  input {
+    background-color: #242935;
+    color: #278ff0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: end;
+    border: none;
+    width: 100%;
+    border: none;
+    width: 92%;
+    font-size: 30px;
+    padding: 10px;
+  }
+}

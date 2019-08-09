@@ -1,0 +1,139 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+.calculator {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+  background-color: #394c7a;
+  width: 260px;
+  height: 440px;
+  border-radius: 15px;
+}
+
+.calculator header {
+  border-radius: 15px 15px 0 0;
+  padding: 8px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.calculator header span {
+  color: rgb(190, 7, 7);
+}
+
+.calculator .screen {
+  background-color: #242935;
+  height: 130px;
+  position: relative;
+}
+
+.calculator .screen p:first-child {
+  padding: 8px;
+  color: #fff;
+  border-bottom: 1px solid #7270b5;
+}
+
+.calculator .screen input[type="text"] {
+  background-color: #242935;
+  color: #278ff0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: end;
+  border: none;
+  width: 100%;
+  border: none;
+  width: 92%;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.calculator .numeric-keyboard {
+  width: 60%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 13px;
+}
+
+.calculator .numeric-keyboard li {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  list-style: none;
+  border: 1px solid #8997db;
+  border-radius: 50%;
+  text-align: center;
+  margin: 5px;
+  line-height: 2.5;
+  color: #becadd;
+}
+
+.calculator .operands-keyboard {
+  width: 30%;
+  float: right;
+}
+
+.calculator .operands-keyboard .upper-operands {
+  display: block;
+  position: absolute;
+  left: 17px;
+}
+
+.calculator .operands-keyboard .right-side-operands {
+  display: relative;
+  text-align: center;
+  height: 280px;
+  border-radius: 0 0 15px 0;
+  background-color: #306086;
+}
+
+.calculator .operands-keyboard .right-side-operands li {
+  line-height: 3.3;
+}
+
+.calculator .operands-keyboard li {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  list-style: none;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 2.5;
+  margin: 5px;
+  font-size: 20px;
+  color: #becadd;
+}
+
+.calculator .operands-keyboard li:nth-child(5) {
+  margin-top: 21px;
+  background-color: #e53560;
+  line-height: 2;
+}
+
+.calculator .operands-keyboard li:nth-child(6) {
+  position: absolute;
+  margin-top: 20px;
+  left: 12px;
+  border: 1px solid #8997db;
+  line-height: 1.4;
+}
+
+.calculator .operands-keyboard li:nth-child(7) {
+  position: absolute;
+  margin-top: 20px;
+  right: 90px;
+  border: 1px solid #8997db;
+  line-height: 2;
+} */

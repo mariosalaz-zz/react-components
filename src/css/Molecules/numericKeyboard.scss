@@ -1,0 +1,29 @@
+@import "../Base/base.scss";
+
+.numeric-keyboard {
+  width: 60%;
+  display: inline-block;
+  text-align: center;
+  padding: 60px 13px 11px 13px;
+  background-color: #253148;
+  border-radius: 0 0 0 10px;
+
+  li {
+    background-image: linear-gradient(#283551, #344464);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    list-style: none;
+    border: 1px solid #2d3b58;
+    border-radius: 50%;
+    text-align: center;
+    margin: 5px;
+    line-height: 2.5;
+    color: #becadd;
+    cursor: pointer;
+
+    &:hover {
+      background: #e53560;
+    }
+  }
+}
